@@ -30,28 +30,28 @@ This project uses a local config file for sensitive credentials.
 - `config_example.h` → template (safe to upload)
 - `config.h` → contains secrets (ignored by Git via .gitignore)
 
+##Project Structure
 ESP32-PIR-ThingSpeak/
 │
 ├── main.ino
 ├── config.example.h (template - safe to upload)
-├── config.h ( DO NOT upload)
+├── config.h ( DON'T upload )
 ├── README.md
 
 Configuration Setup
-### Step 1: Create your config file
+### Create your config file
 
-Copy the example configuration:
-
-[config_example.h](./config_example.h) -> Rename it to: config.h
+Copy the example configuration: [config_example.h](./config_example.h) -> Rename it to: config.h
 
 Fill in your credentials
 
-#define WIFI_SSID "YourWiFiName"
+#define SSID "YourWiFiName"
 
-#define WIFI_PASS "YourWiFiPassword"
+#define PASSWORD "YourWiFiPassword"
 
 #define API_KEY "YourThingSpeakWriteAPIKey"
 
 #define SERVER "YourThingSpeakServerURL"
 
+After entering your credentials, upload the code to the ESP32 using Arduino IDE, open the .ino file, and run the program.
 
