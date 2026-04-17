@@ -38,9 +38,6 @@ ESP32-PIR-ThingSpeak/
 ├── README.md
 
 Configuration Setup
-
-### Step 1: Create your config file
-Copy the example file:
 ### Step 1: Create your config file
 
 Copy the example configuration:
