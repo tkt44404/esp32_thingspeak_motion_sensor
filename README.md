@@ -19,6 +19,7 @@ When motion is detected, the ESP32 sends a signal to a ThingSpeak channel, allow
 ## Hardware Required
 - ESP32 development board
 - PIR motion sensor (HC-SR501 or similar)
+- 1 led (for visual feedback)
 - Jumper wires
 - Breadboard (optional)
 - USB cable
