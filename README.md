@@ -33,9 +33,15 @@ This project uses a local config file for sensitive credentials.
 
 ##Project Structure
 ESP32_thingspeak_motion_sensor/
+
 ├── main.ino
+
 ├── config.example.h # template (safe to upload)
+
+
 ├── config.h # DO NOT upload (contains secrets)
+
+
 ├── README.md
 ---------------------------------
 
