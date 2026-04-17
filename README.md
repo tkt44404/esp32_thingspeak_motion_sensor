@@ -31,17 +31,19 @@ This project uses a local config file for sensitive credentials.
 - `config.h` → contains secrets (ignored by Git via .gitignore)
 
 ##Project Structure
-ESP32-PIR-ThingSpeak/
-│
-├── main.ino
-├── config.example.h (template - safe to upload)
-├── config.h ( DON'T upload )
-├── README.md
+ESP32_thingspeak_motion_sensor
+   main.ino
+   config.example.h (template - safe to upload)
+   config.h ( DON'T upload )
+   README.md
+---------------------------------
+
 
 Configuration Setup
 ### Create your config file
 
 Copy the example configuration: [config_example.h](./config_example.h) -> Rename it to: config.h
+
 
 Fill in your credentials
 
@@ -52,6 +54,7 @@ Fill in your credentials
 #define API_KEY "YourThingSpeakWriteAPIKey"
 
 #define SERVER "YourThingSpeakServerURL"
+
 
 After entering your credentials, upload the code to the ESP32 using Arduino IDE, open the .ino file, and run the program.
 
