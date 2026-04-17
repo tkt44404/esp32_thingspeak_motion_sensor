@@ -48,9 +48,13 @@ Copy the example configuration:
 [config_example.h](./config_example.h) -> Rename it to: config.h
 
 Fill in your credentials
+
 #define WIFI_SSID "YourWiFiName"
+
 #define WIFI_PASS "YourWiFiPassword"
+
 #define API_KEY "YourThingSpeakWriteAPIKey"
+
 #define SERVER "YourThingSpeakServerURL"
 
 
